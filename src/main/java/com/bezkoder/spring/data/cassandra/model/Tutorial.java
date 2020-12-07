@@ -6,7 +6,7 @@ import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
 @Table
-public class Tutorial {
+public class  Tutorial {
   @PrimaryKey
   private UUID id;
 
